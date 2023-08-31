@@ -1,0 +1,156 @@
+#sid-w {
+    display: flex;
+    margin-top: 35vh;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1;
+    padding: 20px;
+}
+
+ul li {
+    padding-top: 30px;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    border-bottom: 3px solid black;
+    color: gray;
+    
+}
+
+
+#home {
+    background-image: url(./scott-webb-hDyO6rr3kqk-unsplash.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#home > div:first-child {
+    padding-top: 25px;
+}
+
+#home > div:last-child {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text-to{
+    width: auto;
+    margin-bottom: 10%;
+}
+
+
+
+#about {
+    height: 100vh auto;
+    background-color: #F8F0E5;
+}
+
+#aa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#shop {
+    background-color: #EADBC8;
+    padding: 100px 0;
+    height: 101vh;
+}
+
+#shop-sml{
+    background-color: #EADBC8;
+    padding: 100px 0;
+    height: 100vh auto;
+}
+
+#compp{
+    padding-left: 150px;
+    padding-top: 20vh;
+    padding-right: 20px;
+}
+
+#compp2{
+    padding-left: 20px;
+    padding-top: 5vh;
+    padding-right: 20px;
+}
+
+
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    padding: 10px 15px;
+    background-color: rgb(0, 0, 0 , 0.4);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#fot-p{
+    background-color: #F8F0E5;
+    position: relative;
+}
+
+---------------------------------
+
+#mod-pop {
+    display: none;
+    margin: 20%;
+}
+
+/* Center the modal */
+.modal-dialog.modal-dialog-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+}
+
+/* Optional: Adjust the modal content's max width */
+.modal-content {
+    max-width: 600px; /* Adjust as needed */
+}
+
+
+
+
+#smo-hd{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+}
+
+#listto:hover{
+    border: none;
+    text-decoration: none;
+}
+
+#imlsit{
+    max-height: 45px;
+    min-height: 20px;
+}
